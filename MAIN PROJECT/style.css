@@ -1,0 +1,1613 @@
+/* Sidebar */
+QWidget#sidebar {
+    background-color: #00a6ff;
+}
+
+/* Logo styling */
+QLabel#Main_Logo {
+    border-radius: 25px; /* Border radius */
+    border: 2px solid #ffffff; /* Border */
+    text-align: center; /* Text alignment */
+}
+
+QLabel#Name_Bar
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+}
+
+QPushButton#Dashboard_btn, QPushButton#Search_btn, QPushButton#Insert_btn, QPushButton#About_btn,QPushButton#Insert_crime_btn  {
+    background-color: #ffffff;
+    color: #0051ff;
+    border : none;
+    text-align: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+QPushButton#Dashboard_btn:hover, QPushButton#Search_btn:hover, QPushButton#Insert_btn:hover, QPushButton#About_btn:hover,QPushButton#Insert_crime_btn:hover,
+QPushButton#Dashboard_btn:focus, QPushButton#Search_btn:focus, QPushButton#Insert_btn:focus, QPushButton#About_btn:focus,QPushButton#Insert_crime_btn:focus {
+    background-color: #a9f2ff;
+    color: #001fc3;
+}
+QFrame#Image_Frame_search{
+    background-color: white;
+    border: 2px solid black
+}
+QLabel#Personal_Information{
+    color : White
+}
+QPushButton#Setting_btn {
+    background-color: #ffffff;
+    border : none;
+    border-radius: 20px;
+}
+QPushButton#Setting_btn:hover,
+QPushButton#Setting_btn:focus {
+    background-color: #a9f2ff;
+}
+
+QPushButton#Logout_btn {
+    background-color: #ff0000;
+    color: white;
+    border : none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+QPushButton#Logout_btn:hover,
+QPushButton#Logout_btn:focus {
+    background-color: #ff4d4d;
+}
+
+QWidget#Login_widget {
+    background-color: rgba(33, 33, 33, 0.67);
+    border-radius: 20px;
+}
+
+QLabel#Login_label {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QLabel#Uname_label,
+QLabel#password_label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QLineEdit#username_lineedit,
+QLineEdit#password_lineedit {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.73);
+}
+
+QLineEdit#username_lineedit:focus,
+QLineEdit#password_lineedit:focus {
+    border-bottom: 4px solid #0066ff;
+    background-color: white;
+}
+
+QPushButton#login_button
+{
+    background-color: #ffffff;
+    color: #0051ff;
+    border : none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+QPushButton#login_button:hover
+{
+    background-color: #a9f2ff;
+    color: #001fc3;
+
+}
+
+/*###################################################*/
+/*###################   DashBoard  ############*/
+/*###################################################*/
+#Dashboard_Widget
+{
+    background-color: #00b4ff;
+    border-radius: 20px;
+}
+
+#Dashboard_Label
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#person_card_widget
+{
+    background-color: rgba(0, 166, 255, 0.78);
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+#person_card_label
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#person_total_number
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/*###################################################*/
+/*###################   LOGIN SETTING  ############*/
+/*###################################################*/
+
+QWidget#Login_Setting_Window {
+    background-color: #d6f4ff;
+}
+
+
+QStackedWidget#Stacked_Main_Widgets
+{
+    background-color: #9ce1ff;
+}
+
+QLabel#Dashboard_Label,
+QLabel#Search_Label,
+QLabel#Insert_Label,
+QLabel#About_Label
+{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#setting_Label
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*#################################################*/
+/*#################   LOGIN    ###################*/
+/*#################################################*/
+
+QPushButton#setting_login
+{
+    background-color: #ffffff;
+    border : none;
+    border-radius: 20px;
+}
+
+QLabel#login_setting_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+QLabel#login_host_label,
+QLabel#login_port_label,
+QLabel#login_port_2_label
+{
+    font-size: 18px;
+    color: #000000;
+
+}
+
+QLineEdit#login_host_lineedit,
+QLineEdit#login_port_lineedit,
+QLineEdit#login_port_2_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QLineEdit#login_host_lineedit:disabled,
+QLineEdit#login_port_lineedit:disabled,
+QLineEdit#login_port_2_lineedit:disabled
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(209, 209, 209);
+    color: #6a6a6a;
+}
+
+QPushButton#login_setting_change_button,
+QPushButton#login_setting_save_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#login_setting_change_button:hover,
+QPushButton#login_setting_save_button:hover
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+
+/*#################################################*/
+/*#################   CONFIRMATION    ###################*/
+/*#################################################*/
+
+QWidget#Confirm_Widget
+{
+    background-color: #d6f4ff;
+}
+
+QLabel#Confirm_Label
+{
+    font-size: 15px;
+    color: #000000;
+}
+
+QPushButton#Confirm_Button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#Confirm_Button:hover
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#Cancel_Button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#Cancel_Button:hover
+{
+    background-color: #ff4d4d;
+    color: #000000;
+}
+
+/*#################################################*/
+/*#################   SETTING   ###################*/
+/*#################################################*/
+
+QWidget#setting_sidebar {
+    background-color: #bcbcbc;
+}
+
+QPushButton#setting_btn1,
+QPushButton#setting_btn2,
+QPushButton#setting_btn3,
+QPushButton#setting_btn4,
+QPushButton#setting_btn5
+{
+    background-color: #9e9e9e;
+    color: #000000;
+    border : none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+QPushButton#setting_btn1:hover, QPushButton#setting_btn1:focus,
+QPushButton#setting_btn2:hover, QPushButton#setting_btn2:focus,
+QPushButton#setting_btn3:hover, QPushButton#setting_btn3:focus,
+QPushButton#setting_btn4:hover, QPushButton#setting_btn4:focus,
+QPushButton#setting_btn5:hover, QPushButton#setting_btn5:focus
+{
+    background-color: #89e3ff;
+}
+
+QStackedWidget#setting_stacked_widget
+{
+    background-color: #ffffff;
+}
+
+QLabel#Setting_Label1,
+QLabel#Setting_Label2,
+QLabel#Setting_Label3,
+QLabel#Setting_Label4,
+QLabel#Setting_Label5
+{
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*#################################################*/
+/*################# VIEW CARDS ###################*/
+/*#################################################*/
+
+QWidget#view_data_card_widget
+{
+    background-color: rgba(0, 166, 255, 0.78);
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+QGridLayout#view_data_main_layout
+{
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+QWidget#view_data_central_widget
+{
+    background-color: rgba(15, 185, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+QLabel#view_data_card_data_key_labels
+{
+    color: white;
+    font-size: 16px;
+}
+QLabel#view_data_card_data_value_labels
+{
+    color: #000000;
+    font-size: 16px;
+}
+
+QScrollArea#view_data_scroll_area
+{
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+QPushButton#view_data_delete_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#view_data_update_button
+{
+    background-color: green;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#view_data_view_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+QPushButton#view_data_view_button:hover, QPushButton#view_data_view_button:focus
+{
+    background-color: #a9f2ff;
+    color: #000000;
+}
+/*#################################################*/
+/*#################   INSERT   ###################*/
+/*#################################################*/
+
+QPushButton#insert_save_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_previous_button
+{
+    background-color: #ff0c0c;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_next_button
+{
+    background-color: #00c303;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/*#################################################*/
+/*##############   INSERT PERSON  ################*/
+/*#################################################*/
+
+#insert_Stacked_Widgets
+{
+    background-color: #00b4ff;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+
+
+#Insert_person_See_Family_detail_Window, #Insert_person_See_Family_ID_Window
+{
+    background-color: #defcff;
+}
+
+QLabel#insert_person_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QLabel#insert_person_picture
+{
+    border : 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+QPushButton#insert_person_pic_button
+{
+    background-color: #ffffff;
+    color: #000000;
+    border : none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+QLabel#insert_person_see_families_label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+QPushButton#insert_person_family_detail_show_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    font-size: 15px;
+}
+QPushButton#insert_person_family_detail_show_button:hover,
+QPushButton#insert_person_family_detail_show_button:focus
+{
+    background-color: #a9f2ff;
+    color: #000000;
+}
+
+QTableWidget#insert_person_see_families_table, QTableWidget#insert_person_see_family_detail_table
+{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+QGroupBox#insert_person_gender_group
+{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QLineEdit#insert_person_first_name_lineedit, QLineEdit#insert_person_last_name_lineedit, QLineEdit#insert_person_placeofbirth_lineedit,
+QLineEdit#insert_person_nationality_lineedit, QLineEdit#insert_person_religion_lineedit, QLineEdit#insert_person_family_id_lineedit,
+QLineEdit#insert_person_cnicno_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QLineEdit#insert_person_first_name_lineedit:focus, QLineEdit#insert_person_last_name_lineedit:focus, QLineEdit#insert_person_placeofbirth_lineedit:focus,
+QLineEdit#insert_person_nationality_lineedit:focus, QLineEdit#insert_person_religion_lineedit:focus, QLineEdit#insert_person_family_id_lineedit:focus,
+QLineEdit#insert_person_cnicno_lineedit:focus
+{
+    border-bottom: 2px solid #0066ff;
+    background-color: white;
+}
+
+QPushButton#insert_person_dateofbirth_button, QPushButton#insert_person_see_family_id_button,
+QPushButton#insert_person_see_family_id_close_button, QPushButton#insert_person_see_family_id_back_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_person_dateofbirth_button:hover, QPushButton#insert_person_see_family_id_button:hover,
+QPushButton#insert_person_see_family_id_close_button:hover, QPushButton#insert_person_see_family_id_back_button:hover,
+QPushButton#insert_person_dateofbirth_button:focus, QPushButton#insert_person_see_family_id_button:focus,
+QPushButton#insert_person_see_family_id_close_button:focus, QPushButton#insert_person_see_family_id_back_button:focus
+{
+    background-color: #a9f2ff;
+    color: #000000;
+}
+
+/*#################################################*/
+/*#########   INSERT CONTACT DETAILS   ###########*/
+/*#################################################*/
+
+QLabel#insert_contact_Label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QWidget#insert_contact_ph_no_widget, QWidget#insert_contact_email_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QLabel#insert_contact_ph_no_label, QLabel#insert_contact_email_label
+{
+    font-size: 20px;
+    color: #000000;
+}
+
+QTableWidget#insert_contact_ph_no_table, QTableWidget#insert_contact_email_table
+{
+    background-color: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+QPushButton#insert_phone_delete_button,
+QPushButton#insert_email_delete_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#inseret_contact_phone_lineedit,
+#insert_contact_email_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_contact_phone_button, QPushButton#insert_contact_email_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/*#################################################*/
+/*#########   INSERT ADDRESS DETAILS   ###########*/
+/*#################################################*/
+
+QLabel#insert_address_Label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QWidget#insert_address_sub_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+QPushButton#delete_address_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+QPushButton#delete_address_button:hover
+{
+    background-color: #ff4d4d;
+}
+
+QTableWidget#insert_address_table_widget
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QLineEdit#insert_address_addr_lineedit,QLineEdit#insert_address_city_lineedit, QLineEdit#insert_address_country_lineedit,
+QLineEdit#insert_address_state_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QComboBox#insert_address_status_combobox
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_address_date_in_button,
+QPushButton#insert_address_date_out_button,
+QPushButton#insert_address_add_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_address_date_out_button:disabled
+{
+    background-color: #4265a0;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_address_date_in_button:hover,QPushButton#insert_address_date_in_button:focus,
+QPushButton#insert_address_date_out_button:hover,QPushButton#insert_address_date_out_button:focus,
+QPushButton#insert_address_add_button:hover, QPushButton#insert_address_add_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+
+
+/*#################################################*/
+/*#########   INSERT ADDRESS DETAILS   ###########*/
+/*#################################################*/
+
+QLabel#insert_Education_Label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QWidget#insert_education_sub_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QTabelWidget#insert_education_table_widget
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QLineEdit#insert_education_deg_lineedit, QLineEdit#insert_education_institute_lineedit, QLineEdit#insert_education_reg_id_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QComboBox#insert_education_status_combobox
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_education_start_date_button, QPushButton#insert_education_end_date_button, QPushButton#insert_education_add_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_education_start_date_button:hover, QPushButton#insert_education_end_date_button:hover, QPushButton#insert_education_add_button:hover,
+QPushButton#insert_education_start_date_button:focus, QPushButton#insert_education_end_date_button:focus, QPushButton#insert_education_add_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_education_end_date_button:disabled
+{
+    background-color: #4265a0;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#delete_edu_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+QPushButton#delete_edu_button:hover
+{
+    background-color: #ff4d4d;
+}
+
+
+/*#################################################*/
+/*#########   INSERT EMPLOYMENT DETAILS   ###########*/
+/*#################################################*/
+
+QLabel#insert_Employment_Label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QWidget#insert_employment_sub_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QTableWidget#insert_employment_table_widget
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QLineEdit#insert_employment_job_name_lineedit, QLineEdit#insert_employment_job_id_lineedit,
+QLineEdit#insert_employment_Company_lineedit, QLineEdit#insert_employment_company_address_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QCobmoBox#insert_employment_status_combobox
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_employment_start_date_button,
+QPushButton#insert_employment_leaving_date_button,
+QPushButton#insert_employment_add_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_employment_start_date_button:hover, QPushButton#insert_employment_start_date_button:focus,
+QPushButton#insert_employment_leaving_date_button:hover, QPushButton#insert_employment_leaving_date_button:focus,
+QPushButton#insert_employment_add_button:hover, QPushButton#insert_employment_add_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_employment_leaving_date_button:disabled
+{
+    background-color: #4265a0;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#delete_emp_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#delete_emp_button:hover
+{
+    background-color: #ff4d4d;
+}
+
+/*#################################################*/
+/*#########   INSERT PROPERTY DETAILS   ###########*/
+/*#################################################*/
+
+
+QLabel#insert_Property_Label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QWidget#insert_property_sub_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QTableWidget#insert_property_table_widget
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QLineEdit#insert_property_type_lineedit, QLineEdit#insert_property_address_lineedit,
+QLineEdit#insert_property_reg_id_lineedit, QLineEdit#insert_property_value_price_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QComboBox#insert_property_status_combobox
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_property_buy_date_button,
+QPushButton#insert_property_sell_date_button,
+QPushButton#insert_property_add_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+QPushButton#insert_property_buy_date_button:hover, QPushButton#insert_property_buy_date_button:focus,
+QPushButton#insert_property_sell_date_button:hover, QPushButton#insert_property_sell_date_button:focus,
+QPushButton#insert_property_add_button:hover, QPushButton#insert_property_add_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_property_sell_date_button:disabled
+{
+    background-color: #4265a0;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_property_delete_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+QPushButton#insert_property_delete_button:hover
+{
+    background-color: #ff4d4d;
+}
+
+
+/*#################################################*/
+/*#########   INSERT VEHICLE DETAILS   ###########*/
+/*#################################################*/
+
+QLabel#insert_vehicle_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QWidget#insert_vehicle_sub_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QTableWidget#insert_vehicle_table_widget
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QLineEdit#insert_vehicle_maker_lineedit,
+QLineEdit#insert_vehicle_name_lineedit,
+QLineEdit#insert_vehicle_color_lineedit,
+QLineEdit#insert_vehicle_reg_number_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_vehicle_add_button,
+QPushButton#insert_vehicle_year_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_vehicle_add_button:hover, QPushButton#insert_vehicle_add_button:focus,
+QPushButton#insert_vehicle_year_button:hover, QPushButton#insert_vehicle_year_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_vehicle_delete_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#insert_vehicle_delete_button:hover
+{
+    background-color: #ff4d4d;
+}
+
+/*#################################################*/
+/*######### INSERT CRIME RECORD DETAILS ###########*/
+/*#################################################*/
+
+QLabel#insert_crime_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+QWidget#insert_crime_sub_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QTableWidget#insert_crime_table_widget
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QLineEdit#insert_crime_id_lineedit,
+QLineEdit#insert_person_id_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QComboBox#crime_status_combobox
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_crime_see_button,
+QPushButton#insert_crime_record_date_button,
+QPushButton#insert_crime_add_button,
+QPushButton#insert_person_see_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_crime_see_button:hover,QPushButton#insert_crime_see_button:focus,
+QPushButton#insert_crime_record_date_button:hover,QPushButton#insert_crime_record_date_button:focus,
+QPushButton#insert_crime_add_button:hover,QPushButton#insert_crime_add_button:focus,
+QPushButton#insert_person_see_button:hover,QPushButton#insert_person_see_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_crime_delete_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#insert_crime_delete_button:hover
+{
+    background-color: #ff4d4d;
+}
+
+QPushButton#insert_crime_insert_button
+{
+    background-color: #00be0c;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_crime_insert_button:hover, QPushButton#insert_crime_insert_button:focus
+{
+    background-color: #97ff7a;
+    color: #000000;
+}
+
+/*#################################################*/
+/*######### SEE PERSON DETAILS CRIMES INSERT #######*/
+/*################################################*/
+
+QLabel#insert_see_persons_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+QTableWidget#insert_see_persons_table
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QPushButton#insert_see_persons_close_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#insert_see_persons_close_button:hover,
+QPushButton#insert_see_persons_close_button:focus
+{
+    background-color: #ff4d4d;
+    color: #000000;
+}
+
+
+/*#################################################*/
+/*######### INSERT CRIME RECORD DETAILS ###########*/
+/*#################################################*/
+
+
+QWidget#insert_crime_see_crimes_table_window
+{
+    background-color: #defcff;
+}
+
+QLabel#insert_see_crime_label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+QTableWidget#insert_see_crime_table
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QPushButton#insert_see_crime_add_new_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#insert_see_crime_add_new_button:hover
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_see_crime_close
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#insert_see_crime_close:hover
+{
+    background-color: #ff4d4d;
+    color: #000000;
+}
+
+
+/*#################################################*/
+/*################ INSERT ADD CRIME ################*/
+/*#################################################*/
+
+QWidget#insert_add_crime_window
+{
+    background-color: #defcff;
+}
+
+QLabel#insert_add_crime_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+QTextEdit#add_new_crime_details,
+QTextEdit#add_new_crime_punishment,
+QLineEdit#add_new_crime_name,
+QLineEdit#add_new_crime_fine
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#add_new_crime_add_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#add_new_crime_add_button:hover
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#add_new_crime_close_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#add_new_crime_close_button:hover
+{
+    background-color: #ff4d4d;
+    color: #000000;
+}
+
+
+/*#################################################*/
+/*################ Insert Crime Widget ##############*/
+/*#################################################*/
+
+QWidget#insert_crime_widget
+{
+    background-color: #00b4ff;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+QPushButton#insert_crime_record_btn,
+QPushButton#insert_jail_record_btn
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+QPushButton#insert_jail_record_btn:hover, QPushButton#insert_jail_record_btn:focus,
+QPushButton#insert_crime_record_btn:hover, QPushButton#insert_crime_record_btn:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+
+
+
+/*#################################################*/
+/*################ Insert JAIL RECORD ##############*/
+/*#################################################*/
+
+QLabel#insert_jail_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QWidget#insert_jail_sub_widget
+{
+    background-color: rgba(112, 192, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+QTableWidget#insert_jail_table_widget
+{
+    background-color: #ffffff;
+    border: none;
+    justify-content: center;
+    text-align: center;
+}
+
+QLineEdit#insert_jail__person_id_lineedit, QLineEdit#insert_jail_crime_id_lineedit, QLineEdit#insert_jail_jail_id_lineedit
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#insert_jail_person_see_btn, QPushButton#insert_jail_crimes_see_btn, QPushButton#insert_jail_jails_see_btn,
+QPushButton#insert_jail_record_date_in_button, QPushButton#insert_jail_record_date_out_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_jail_person_see_btn:hover, QPushButton#insert_jail_person_see_btn:focus,
+QPushButton#insert_jail_crimes_see_btn:hover, QPushButton#insert_jail_crimes_see_btn:focus,
+QPushButton#insert_jail_jails_see_btn:hover, QPushButton#insert_jail_jails_see_btn:focus,
+QPushButton#insert_jail_record_date_in_button:hover, QPushButton#insert_jail_record_date_in_button:focus,
+QPushButton#insert_jail_record_date_out_button:hover, QPushButton#insert_jail_record_date_out_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_jail_record_date_out_button:disabled
+{
+    background-color: #4265a0;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QComboBox#jail_status_combobox
+{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+QPushButton#insert_jail_add_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+QPushButton#insert_jail_add_button:hover, QPushButton#insert_jail_add_button:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#insert_jail_delete_button
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#insert_jail_delete_button:hover
+{
+    background-color: #ff4d4d;
+}
+
+/*#################################################*/
+/*################ USER SETTING ###################*/
+/*#################################################*/
+
+QLabel#setting_user_label
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*#################################################*/
+/*################ Search Wiget ###################*/
+/*#################################################*/
+
+QStackedWidget#search_stacked_widget
+{
+    background-color: #00b4ff;
+    border: none;
+    border-radius: 20px;
+}
+
+
+QPushButton#add_new_crime_add_button,
+
+QPushButton#Search_Person,
+QPushButton#Search_contact,
+QPushButton#search_address,
+QPushButton#Search_education,
+QPushButton#Search_property,
+QPushButton#Search_employment,
+QPushButton#Search_vehicle,
+QPushButton#Search_CrimeRecord,
+QPushButton#Search_jailRecord
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#Search_Person:hover, QPushButton#Search_Person:focus,
+QPushButton#Search_contact:hover, QPushButton#Search_contact:focus,
+QPushButton#search_address:hover, QPushButton#search_address:focus,
+QPushButton#Search_education:hover, QPushButton#Search_education:focus,
+QPushButton#Search_property:hover, QPushButton#Search_property:focus,
+QPushButton#Search_employment:hover, QPushButton#Search_employment:focus,
+QPushButton#Search_vehicle:hover, QPushButton#Search_vehicle:focus,
+QPushButton#Search_CrimeRecord:hover, QPushButton#Search_CrimeRecord:focus,
+QPushButton#Search_jailRecord:hover, QPushButton#Search_jailRecord:focus
+{
+    background-color: #34e1ff;
+    color: #000000;
+}
+
+QPushButton#search_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+QPushButton#Search_Person
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+QPushButton#Search_jailRecord
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+QPushButton#search_button
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+#First_Name , #Last_Name , #age_label , #cnic_number ,#family_id , #Phone_number ,#emails ,#Address ,#Country,
+#State_label ,#City ,#Institute_label ,#Registration_id ,#Degree_Name ,#Registration_Id_label ,#address ,#Property_Type,
+#Job_ID ,#Job_Name_label ,#Company_Name ,#Vehicle_Color  ,#Registration_Date ,#Vehicle_Name_label ,#Vehicle_Model ,
+#Vehicle_Maker ,#Crime_Name ,#Jail_Name ,#jail_location
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    align: center;
+}
+#Search_JailRecord_Label ,#Search_Vehicle_Label ,#Search_Employment_Label ,
+#Search_Property_Label ,#Search_Education_Label ,#Search_address_Label ,#Search_contact_Label ,#Search_person_Label
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    align: center;
+}
+
+QLineEdit#First_Name_lineedit , QLineEdit#Last_Name_lineedit  , QLineEdit#age_lineedit , QLineEdit#cnic_number_lineedit,
+QLineEdit#famaily_id_lineedit , QLineEdit#Phone_number_lineedit , QLineEdit#emails_lineedit , QLineEdit#Address_lineedit,
+QLineEdit#Country_lineedit , QLineEdit#State_lineedit , QLineEdit#City_lineedit ,QLineEdit#Institute_lineedit ,
+QLineEdit#Registration_id_lineedit , QLineEdit#Degree_Name_lineedit , QLineEdit#Registration_Id_lineedit ,QLineEdit#address_lineedit,
+QLineEdit#Property_Type_lineedit ,QLineEdit#Job_ID_lineedit ,QLineEdit#Job_Name_lineedit , QLineEdit#Company_Name_lineedit ,
+QLineEdit#Vehicle_Color_lineedit ,QLineEdit#Registration_Date_lineedit ,QLineEdit#Vehicle_Name_lineedit ,QLineEdit#Vehicle_Model_lineedit,
+QLineEdit#Vehicle_Maker_lineedit  ,QLineEdit#crime_Name_lineedit ,QLineEdit#Jail_Name_lineedit ,QLineEdit#jail_location_lineedit,
+#family_id_lineedit
+{
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+#Search_Widget
+{
+    background-color: #00b4ff;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+
+/*#################################################*/
+/*################ View Css ###################*/
+/*#################################################*/
+
+QStackedWidget#View_stacked_widget
+{
+    background-color: #9ce1ff;
+    border: none;
+    border-radius: 20px;
+}
+
+QStackedWidget#View_stacked_widget{
+
+background-color: #00a6ff;
+}
+
+#View_jailRecord_Label ,#View_vehicles_Label ,#View_employment_Label ,QLabel#View_person_Label,
+#View_property_Label ,#Search_Education_Label ,#View_education_Label , #View_address_Label ,#Search_contact_Label
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    align: center;
+}
+
+
+#first_name_label ,#last_name_label ,#dob_label ,#place_of_birth_label ,#age_label ,
+#gender_label ,#nationality_label ,#religion_label ,#cnic_label ,#family_id_label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    align: center;
+}
+

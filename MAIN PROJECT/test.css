@@ -1,0 +1,123 @@
+
+/*#########################################################*/
+/*##################  Person View  ###################*/
+/*#########################################################*/
+
+
+#person_view_main_Widget
+{
+    background-color: rgba(182, 213, 255, 0.86);
+    border-radius: 10px;
+}
+
+/*#person_view_sub_widget_1*/
+/*{*/
+/*    background-color: #ee00ff;*/
+/*}*/
+
+/*#person_view_sub_widget_2*/
+/*{*/
+/*    background-color: #bfff00;*/
+/*}*/
+
+
+#person_f_name_label_1, #person_l_name_label_1, #person_gender_label_1, #person_age_label_1, #person_cnic_label_1,
+#person_nationality_label_1, #person_religion_label_1, #person_dob_label_1, #person_pob_label_1, #person_family_id_label_1
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    align: center;
+}
+
+#person_f_name_label_2, #person_l_name_label_2, #person_gender_label_2, #person_age_label_2, #person_cnic_label_2,
+#person_nationality_label_2, #person_religion_label_2, #person_dob_label_2, #person_pob_label_2, #person_family_id_label_2
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    align: center;
+}
+
+#person_view_Delete_btn
+{
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+#person_view_Delete_btn:hover
+{
+    background-color: #ff4d4d;
+}
+
+#person_view_edit_btn
+{
+    background-color: #0066ff;
+    color: #ffffff;
+    border : none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#person_view_edit_btn:hover
+{
+    background-color: #0099ff;
+}
+
+
+/*#########################################################*/
+/*##################  Contact View  ###################*/
+/*#########################################################*/
+
+
+#contact_view_main_Widget
+{
+    background-color: rgba(182, 213, 255, 0.86);
+    border-radius: 10px;
+}
+
+#contact_view_sub_widget_1
+{
+    background-color: rgba(182, 213, 255, 0.86);
+    border-radius: 10px;
+}
+
+#contact_view_sub_widget_2
+{
+    background-color: rgba(182, 213, 255, 0.86);
+    border-radius: 10px;
+}
+
+#contact_ph_no_label, #contact_email_label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    align: center;
+}
+
+
+/*#########################################################*/
+/*##################  Contact View  ###################*/
+/*#########################################################*/
+
+
+
+#address_view_sub_widget
+{
+    background-color: rgba(182, 213, 255, 0.86);
+    border-radius: 10px;
+}
+
+#View_address_Label
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    align: center;
+}
